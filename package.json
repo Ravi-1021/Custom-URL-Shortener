@@ -1,0 +1,25 @@
+{
+  "name": "custom-url-shortener",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Ravi-1021/Custom-URL-Shortener#readme",
+  "bugs": {
+    "url": "https://github.com/Ravi-1021/Custom-URL-Shortener/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ravi-1021/Custom-URL-Shortener.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.16.4",
+    "nanoid": "^5.1.5"
+  }
+}
